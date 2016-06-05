@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yoo.easybusinessprueba.MainFragment">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="205dp"
+            android:text="Bienvenido"
+            android:id="@+id/txtbienvenda"
+            android:layout_gravity="bottom|center"
+            android:textStyle="bold"
+            android:textSize="45dp"
+            android:textAlignment="center"
+            android:gravity="center_vertical"
+            android:textColor="#0f1937" />
+
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="362dp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/logotipo2"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</FrameLayout>
